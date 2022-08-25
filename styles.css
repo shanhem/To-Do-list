@@ -1,0 +1,78 @@
+html,body{
+    width: 50%;
+    font-family:'Lato', Arial, sans-serif;
+   margin:0;
+   padding:0;
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient(-45deg,#632453,#8b3131,#86882a,#8a9c24);
+   background-size:400% 400%;
+   animation: changes 10s ease-in-out infinite;
+}
+
+@keyframes changes{
+    
+0%{background-position: 100% 50%;}
+
+50%{background-position: 0% 50%;}
+
+100%{background-position: 100% 50%;}
+
+
+
+}
+
+
+h1{
+    color:rgb(255, 255, 255);
+    top: 50%;
+    left:50%;
+    position:middle;
+    text-shadow: 10px,black;
+}
+
+.container{
+    width:360px;
+    top: 2%;
+    left:40%;
+    position: absolute;
+    
+    
+}
+
+#inputField{
+width: 300px;
+height: 46px;
+border: 0.5px solid black;
+outline: none;
+border-radius: 25px;
+padding:11px;
+font-size: 25px;
+vertical-align: middle;
+
+}
+
+#addToDo{
+    height: 65px;
+    width: 65px;
+    border: 0.5px solid black;
+    border-radius: 25px;
+    font-size: 30px;
+    
+    
+
+}
+
+.to-dos{
+    margin-top: 25px;
+}
+
+
+.paragraph-styling{
+    margin: 0;
+    cursor:pointer;
+    font-size: 20px;
+    border: 1px;
+    color: black;
+
+}
